@@ -1,0 +1,12 @@
+Building DAG of jobs...
+AmbiguousRuleException:
+Rules unzip and quant are ambiguous for the file output/quants/DRR016125/aux_info/eq_classes.txt.
+Consider starting rule output with a unique prefix, constrain your wildcards, or use the ruleorder directive.
+Wildcards:
+        unzip: i=25
+        quant: i=25/aux_info/eq_classes.txt
+Expected input files:
+        unzip: output/quants/DRR016125/aux_info/eq_classes.txt.gz
+        quant: data/DRR016125/aux_info/eq_classes.txt/DRR016125/aux_info/eq_classes.txt_1.fastq.gz data/DRR016125/aux_info/eq_classes.txt/DRR016125/aux_info/eq_classes.txt_2.fastq.gz output/athal_indexExpected output files:
+        unzip: output/quants/DRR016125/aux_info/eq_classes.txt
+        quant: output/quants/DRR016125/aux_info/eq_classes.txt output/quants/DRR016125/aux_info/eq_classes.txt/aux_info/eq_classes.txt.gz
